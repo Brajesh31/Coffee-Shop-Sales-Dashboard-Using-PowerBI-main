@@ -1,0 +1,39 @@
+name: "🐛 Bug report"
+description: Report a reproducible issue in the dashboard, data preparation, or documentation.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "Please remove private paths, customer data, tokens, and workspace identifiers."
+  - type: input
+    id: environment
+    attributes:
+      label: Power BI Desktop version / environment
+      placeholder: Version and operating system
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Include the affected page, visual, measure, or file.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual result
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Safe evidence
+      description: Add sanitized screenshots or error messages. Do not attach confidential workbook data.

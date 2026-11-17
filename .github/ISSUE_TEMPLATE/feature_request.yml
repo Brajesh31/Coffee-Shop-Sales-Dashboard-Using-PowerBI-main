@@ -1,0 +1,23 @@
+name: "💡 Feature request"
+description: Propose an analytical, usability, or documentation improvement.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Business question or user problem
+      description: What decision or user task is currently difficult?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed improvement
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: How should the result be validated?
+      description: Specify expected KPI behavior, filters, or report interaction.

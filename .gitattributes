@@ -1,0 +1,18 @@
+# Normalize text files across platforms.
+* text=auto
+
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+*.svg text eol=lf
+
+# Binary project artifacts must not be line-ending converted.
+*.pbix binary
+*.xlsx binary
+*.xlsm binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary

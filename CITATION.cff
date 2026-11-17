@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this project in research or an educational portfolio, please cite the repository."
+title: "Coffee Shop Sales Dashboard Using Power BI"
+authors:
+  - family-names: Kumar
+    given-names: Brajesh
+repository-code: "https://github.com/Brajesh31/Coffee-Shop-Sales-Dashboard-Using-PowerBI-main"
+type: software
+license: MIT

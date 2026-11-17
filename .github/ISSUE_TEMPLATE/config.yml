@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🔐 Security reporting
+    url: https://github.com/Brajesh31/Coffee-Shop-Sales-Dashboard-Using-PowerBI-main/security
+    about: Do not disclose credentials or sensitive data in public issues. Follow SECURITY.md.

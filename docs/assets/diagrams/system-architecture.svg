@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+<title id="title">Coffee shop Power BI logical architecture</title>
+<desc id="desc">Excel workbook flows through Power Query, the Power BI semantic model and DAX calculations to report visuals.</desc>
+<defs><linearGradient id="coffee" x1="0" x2="1"><stop offset="0" stop-color="#6f3e24"/><stop offset="1" stop-color="#c08a56"/></linearGradient><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0 L9 3 L0 6Z" fill="#8a6b57"/></marker></defs>
+<rect width="1200" height="420" rx="28" fill="#fbf7f0"/>
+<text x="600" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="#422719">☕ Coffee Shop Sales Dashboard</text>
+<g font-family="Arial,sans-serif" text-anchor="middle">
+<rect x="55" y="145" width="190" height="130" rx="18" fill="#fff" stroke="#b98152" stroke-width="3"/><text x="150" y="195" font-size="22" font-weight="700" fill="#422719">📄 Excel</text><text x="150" y="230" font-size="16" fill="#6c5546">Source workbook</text>
+<rect x="335" y="145" width="190" height="130" rx="18" fill="#fff" stroke="#b98152" stroke-width="3"/><text x="430" y="195" font-size="22" font-weight="700" fill="#422719">⚙️ Power Query</text><text x="430" y="230" font-size="16" fill="#6c5546">Prepare and shape</text>
+<rect x="615" y="145" width="190" height="130" rx="18" fill="#fff" stroke="#b98152" stroke-width="3"/><text x="710" y="195" font-size="22" font-weight="700" fill="#422719">🧱 Model + DAX</text><text x="710" y="230" font-size="16" fill="#6c5546">Relationships + KPIs</text>
+<rect x="895" y="145" width="250" height="130" rx="18" fill="url(#coffee)" stroke="#6f3e24" stroke-width="3"/><text x="1020" y="195" font-size="22" font-weight="700" fill="#fff">📊 Power BI report</text><text x="1020" y="230" font-size="16" fill="#fff">Explore and interpret</text>
+</g>
+<g stroke="#8a6b57" stroke-width="4" fill="none" marker-end="url(#arrow)"><path d="M245 210 H325"/><path d="M525 210 H605"/><path d="M805 210 H885"/></g>
+<text x="600" y="345" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#806653">Logical workflow based on declared tools. Internal PBIX objects require direct inspection.</text>
+</svg>

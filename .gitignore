@@ -1,0 +1,40 @@
+# 🧹 Local Power BI working files
+*.tmp
+*.temp
+*.log
+~$*.xlsx
+~$*.xlsm
+*.bak
+*.backup
+
+# Power BI local caches and temporary exports
+.cache/
+temp/
+tmp/
+exports/
+*.pbix.autosave
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+
+# Python validation tooling
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Keep committed project assets such as the source workbook and PBIX.

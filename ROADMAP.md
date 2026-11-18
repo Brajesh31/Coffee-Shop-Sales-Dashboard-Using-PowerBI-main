@@ -37,3 +37,13 @@ This roadmap separates completed repository documentation work from proposed rep
 ## ✅ Completion rule
 
 Do not mark a task complete based only on documentation being written. Attach a result, screenshot, formula review, or reproducible validation outcome.
+
+## 📚 Repository documentation expansion
+
+- [x] Add missing data dictionary and Power Query preparation guides.
+- [x] Expand product, requirements, user journey, architecture, security, privacy, accessibility, QA, and operations documentation.
+- [x] Add reusable templates and original SVG diagrams.
+- [x] Improve docs validation for local links and SVG assets.
+- [ ] Inspect the actual workbook schema and complete the field dictionary with verified values.
+- [ ] Inspect the PBIX page inventory, model relationships, DAX measures, query steps, and interactions.
+- [ ] Capture genuine report screenshots and complete accessibility and performance reviews.

@@ -2,6 +2,10 @@
   <img src="https://raw.githubusercontent.com/Brajesh31/Coffee-Shop-Sales-Dashboard-Using-PowerBI-main/main/Background%20image.png" alt="Coffee shop dashboard visual background" width="100%">
 </p>
 
+<p align="center">
+  <img src="docs/assets/project-banner.svg" alt="Coffee Shop Sales Dashboard project illustration" width="100%">
+</p>
+
 <div align="center">
 
 # ☕ Coffee Shop Sales Dashboard
@@ -174,22 +178,24 @@ See [Security](SECURITY.md), [Data quality](docs/data-quality.md), and [Limitati
 
 ## 📚 Documentation map
 
-| Guide | Description |
+The documentation is organized into focused guides. Start with the [complete documentation index](docs/README.md).
+
+| Area | Key guides |
 |---|---|
-| [Documentation home](docs/README.md) | Index of all project guides |
-| [Product overview](docs/product-overview.md) | Goals, audience, scope, and value |
-| [Report usage](docs/report-usage.md) | Analytical workflow and interpretation |
-| [Architecture](docs/architecture.md) | Data-to-report architecture |
-| [Data dictionary](docs/data-dictionary.md) | Workbook profiling and field inventory |
-| [Data preparation](docs/data-preparation.md) | Power Query workflow |
-| [Semantic model](docs/semantic-model.md) | Model discovery and relationship documentation |
-| [DAX measures](docs/dax-measures.md) | KPI definition and validation catalogue |
-| [Visual design](docs/visual-design.md) | Layout, chart selection, and accessibility |
-| [Data refresh](docs/data-refresh.md) | Source path and refresh guidance |
-| [Testing and QA](docs/testing.md) | Report validation checklist |
-| [Deployment](docs/deployment.md) | Desktop handoff and optional Service publishing |
-| [Troubleshooting](docs/troubleshooting.md) | Common local setup issues |
-| [Limitations](docs/limitations.md) | Evidence gaps and boundaries |
+| ☕ Product | [Background](docs/project-background.md) · [Objectives](docs/project-objectives.md) · [Features](docs/features.md) · [Requirements](docs/functional-requirements.md) · [User journeys](docs/user-journeys.md) |
+| 🏛️ Architecture | [Technical overview](docs/technical-overview.md) · [Component architecture](docs/component-architecture.md) · [Lifecycle](docs/application-lifecycle.md) · [Dependencies](docs/dependencies.md) |
+| 📊 Data and BI | [Data dictionary](docs/data-dictionary.md) · [Power Query preparation](docs/data-preparation.md) · [Validation](docs/data-validation.md) · [Semantic model](docs/semantic-model.md) · [DAX](docs/dax-measures.md) |
+| 🎨 Report UX | [Report usage](docs/report-usage.md) · [Page documentation](docs/report-page-documentation.md) · [Design system](docs/design-system.md) · [Accessibility](docs/accessibility.md) |
+| 🔐 Governance | [Security](docs/security.md) · [Access control](docs/access-control.md) · [Privacy](docs/data-privacy-and-retention.md) · [Risk register](docs/security-risk-register.md) |
+| 🧪 Quality | [QA](docs/qa.md) · [Test strategy](docs/test-strategy.md) · [Test plan](docs/test-plan.md) · [Quality gates](docs/quality-gates.md) |
+| 🚀 Delivery | [DevOps](docs/devops.md) · [CI/CD](docs/ci-cd.md) · [GitHub Actions](docs/github-actions.md) · [Release management](docs/release-management.md) · [Rollback](docs/rollback.md) |
+| 🛠️ Maintenance | [Maintenance](docs/maintenance.md) · [Known issues](docs/known-issues.md) · [Technical debt](docs/technical-debt.md) · [Project status](docs/project-status.md) |
+
+### 🧩 Reusable templates and visual assets
+- [Template catalogue](docs/templates/README.md)
+- [Logo, banner, diagrams, and screenshot policy](docs/assets/README.md)
+- [Diagram catalogue](docs/diagrams.md)
+- [Complete project structure](docs/project-structure.md)
 
 ## 🗺️ Roadmap
 
@@ -215,4 +221,4 @@ Contributions that improve reproducibility, data definitions, accessibility, or 
 
 </div>
 
-Last updated: 2026-11-17 23:36 UTC
+Documentation expanded: 2026-11-18

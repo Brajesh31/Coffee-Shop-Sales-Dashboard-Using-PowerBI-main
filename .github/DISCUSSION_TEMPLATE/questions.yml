@@ -1,0 +1,21 @@
+title: "❓ Question: "
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Include relevant guide, report area, and sanitized environment details.
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+    validations:
+      required: true
+  - type: textarea
+    id: tried
+    attributes:
+      label: What you already checked
+    validations:
+      required: false

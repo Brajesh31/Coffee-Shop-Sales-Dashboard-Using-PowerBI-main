@@ -1,0 +1,21 @@
+title: "💡 Idea: "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or opportunity
+      description: What analyst task or reporting problem should improve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed improvement
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Expected value and trade-offs
+    validations:
+      required: true

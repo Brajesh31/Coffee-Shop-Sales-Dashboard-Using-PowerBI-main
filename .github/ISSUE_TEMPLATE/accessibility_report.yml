@@ -1,0 +1,46 @@
+name: "♿ Accessibility issue"
+description: Report an accessibility barrier in the Power BI report or repository docs.
+title: "[Accessibility]: "
+labels: ["accessibility"]
+body:
+  - type: markdown
+    attributes:
+      value: "Do not include private workbook data, credentials, or confidential report links."
+  - type: input
+    id: artifact
+    attributes:
+      label: Affected artifact and version
+      placeholder: PBIX commit, report version, or documentation path
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Page, visual, or documentation section
+    validations:
+      required: true
+  - type: textarea
+    id: barrier
+    attributes:
+      label: Accessibility barrier
+      description: Describe the task and barrier encountered.
+    validations:
+      required: true
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Impact
+      options:
+        - Blocks task completion
+        - Major difficulty
+        - Minor difficulty
+        - Improvement suggestion
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Test environment
+      description: Power BI Desktop or Service version, operating system, browser, keyboard or assistive technology.
+    validations:
+      required: true

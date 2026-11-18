@@ -1,0 +1,46 @@
+name: "⚡ Performance issue"
+description: Report slow opening, refresh, or visual rendering in the Power BI report.
+title: "[Performance]: "
+labels: ["performance"]
+body:
+  - type: markdown
+    attributes:
+      value: "Include reproducible timings and environment. Remove private paths and sensitive data."
+  - type: input
+    id: version
+    attributes:
+      label: PBIX and workbook version
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Power BI Desktop build and device
+    validations:
+      required: true
+  - type: dropdown
+    id: operation
+    attributes:
+      label: Slow operation
+      options:
+        - Opening report
+        - Refreshing data
+        - Loading a page
+        - Interacting with a visual
+        - Exporting
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: timings
+    attributes:
+      label: Measured timings
+      description: Include repeat count, filter context, safe source size, and observed duration.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction steps
+    validations:
+      required: true

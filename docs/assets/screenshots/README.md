@@ -1,14 +1,14 @@
-# 📸 Real Report Screenshots
+# 📸 Report Screenshot Policy
 
-Capture screenshots from the actual `coffee shop sales.pbix` using Power BI Desktop and place sanitized images here.
+This directory is reserved for screenshots captured from the actual Power BI report. No verified page screenshots are included in this documentation expansion.
 
-Recommended filenames:
-- `report-overview.png`
-- `monthly-performance.png`
-- `store-comparison.png`
-- `category-analysis.png`
-- `daily-sales-trend.png`
-- `top-products.png`
-- `day-hour-heatmap.png`
+## Capture checklist
+1. Open the exact PBIX release being documented.
+2. Record Power BI Desktop build and workbook version.
+3. Capture each page at a consistent canvas/window size.
+4. Record date range, filters, slicers, and drill state.
+5. Remove customer-sensitive, commercial, credential, or tenant data.
+6. Use descriptive filenames only for pages and versions that have been verified.
+7. Add alt text and link each image from the relevant page guide.
 
-For each image, record PBIX version, capture date, visible filters, and report page name. These names are a capture plan, not confirmation that each is a separate report page.
+Never use a generated mockup, stock image, or diagram as proof of a report page. Keep the existing background asset and documentation illustrations distinct from real report captures.

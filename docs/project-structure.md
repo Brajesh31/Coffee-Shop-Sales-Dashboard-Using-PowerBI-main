@@ -1,6 +1,6 @@
 # 🗂️ Complete Project Structure
 
-This tree is generated from the current Git inventory plus the files added in this documentation expansion. Binary files are listed as repository artifacts; their internal contents are not represented here.
+This inventory is generated from the repository tree on main plus the documentation files in the current update. PBIX/XLSX binary internals are not represented by the Git directory tree.
 
 ## Repository tree
 
@@ -67,15 +67,27 @@ This tree is generated from the current Git inventory plus the files added in th
 │   ├── access-control.md
 │   ├── accessibility-testing.md
 │   ├── accessibility.md
+│   ├── animation-guidelines.md
 │   ├── api-and-database-boundaries.md
 │   ├── application-lifecycle.md
+│   ├── architecture-decisions.md
 │   ├── architecture.md
+│   ├── audit-logging.md
+│   ├── authentication.md
+│   ├── authorization.md
 │   ├── backup-and-restore.md
 │   ├── branding-guidelines.md
 │   ├── bug-reporting.md
+│   ├── building.md
 │   ├── ci-cd.md
+│   ├── code-standards.md
+│   ├── coding-guidelines.md
+│   ├── color-contrast.md
+│   ├── color-system.md
+│   ├── commands-reference.md
 │   ├── compatibility.md
 │   ├── component-architecture.md
+│   ├── component-library.md
 │   ├── configuration.md
 │   ├── contributor-guide.md
 │   ├── data-deletion.md
@@ -83,19 +95,27 @@ This tree is generated from the current Git inventory plus the files added in th
 │   ├── data-flow.md
 │   ├── data-preparation.md
 │   ├── data-privacy-and-retention.md
+│   ├── data-protection.md
 │   ├── data-quality.md
 │   ├── data-refresh.md
 │   ├── data-validation.md
 │   ├── dax-measures.md
+│   ├── debugging.md
 │   ├── decision-log.md
 │   ├── dependencies.md
+│   ├── dependency-security.md
 │   ├── deployment.md
+│   ├── deprecation-policy.md
+│   ├── design-patterns.md
 │   ├── design-system.md
+│   ├── design-tokens.md
 │   ├── developer-guide.md
 │   ├── development-workflow.md
 │   ├── devops.md
 │   ├── diagrams.md
 │   ├── disaster-recovery.md
+│   ├── documentation-coverage-matrix.md
+│   ├── encryption.md
 │   ├── environment-variables.md
 │   ├── error-handling.md
 │   ├── faq.md
@@ -104,23 +124,33 @@ This tree is generated from the current Git inventory plus the files added in th
 │   ├── getting-started.md
 │   ├── github-actions.md
 │   ├── glossary.md
+│   ├── health-checks.md
+│   ├── hosting.md
 │   ├── incident-response.md
+│   ├── infrastructure.md
+│   ├── installation.md
 │   ├── integration-testing.md
 │   ├── integrations.md
+│   ├── keyboard-navigation.md
 │   ├── known-issues.md
 │   ├── limitations.md
+│   ├── local-development.md
+│   ├── logging.md
 │   ├── maintainer-guide.md
 │   ├── maintenance.md
 │   ├── migration-and-upgrade.md
 │   ├── module-documentation.md
+│   ├── monitoring.md
 │   ├── navigation-structure.md
 │   ├── non-functional-requirements.md
+│   ├── observability.md
 │   ├── operations.md
 │   ├── performance-testing.md
 │   ├── performance.md
 │   ├── privacy.md
 │   ├── problem-statement.md
 │   ├── product-overview.md
+│   ├── production-setup.md
 │   ├── project-background.md
 │   ├── project-objectives.md
 │   ├── project-status.md
@@ -134,10 +164,14 @@ This tree is generated from the current Git inventory plus the files added in th
 │   ├── responsive-behavior.md
 │   ├── risk-register.md
 │   ├── rollback.md
+│   ├── running-locally.md
+│   ├── scalability.md
 │   ├── scope-and-limitations.md
+│   ├── screen-reader-support.md
 │   ├── secret-management.md
 │   ├── security-architecture.md
 │   ├── security-risk-register.md
+│   ├── security-testing.md
 │   ├── security.md
 │   ├── semantic-model.md
 │   ├── solution-overview.md
@@ -150,14 +184,17 @@ This tree is generated from the current Git inventory plus the files added in th
 │   ├── testing.md
 │   ├── threat-model.md
 │   ├── troubleshooting.md
+│   ├── typography.md
 │   ├── ui-ux-guidelines.md
+│   ├── upgrade-guide.md
 │   ├── use-cases.md
 │   ├── user-journeys.md
 │   ├── user-personas.md
 │   ├── versioning.md
 │   ├── visual-design.md
 │   ├── visual-regression-testing.md
-│   └── vulnerability-management.md
+│   ├── vulnerability-management.md
+│   └── wcag-compliance.md
 ├── scripts/
 │   ├── README.md
 │   └── validate_docs.py
@@ -179,26 +216,25 @@ This tree is generated from the current Git inventory plus the files added in th
 ├── SECURITY.md
 └── SUPPORT.md
 
-## Important artifacts
+## Key artifact responsibilities
 
 | Path | Responsibility | Notes |
 |---|---|---|
-| coffee shop sales.pbix | Power BI report and semantic model | Pages, measures, relationships, and queries require Desktop inspection |
-| Coffee Shop Sales.xlsx | Source-data workbook | Sheets, columns, and grain require workbook profiling |
-| Background image.png | Existing visual background | Not a dashboard screenshot |
-| README.md | Project landing page | Links to the full documentation catalogue |
-| LICENSE | MIT license | Review ownership before reuse |
-| CODEOWNERS | Review ownership | Assigns repository paths to the maintainer |
-| .github/ | Issue forms, discussion templates, workflows | No application deployment pipeline is implied |
-| docs/ | Product, architecture, data, security, accessibility, QA, delivery, and maintenance guides | Indexed in docs/README.md |
+| coffee shop sales.pbix | Power BI report and semantic model | Internal pages, measures, relationships, queries, and theme require Desktop inspection |
+| Coffee Shop Sales.xlsx | Source-data workbook | Sheet names, columns, grain, and quality profile require workbook inspection |
+| Background image.png | Existing background asset | Not a dashboard screenshot |
+| README.md | Repository landing page | Links to the documentation catalogue |
+| LICENSE | MIT license | Existing repository license |
+| CODEOWNERS | Review ownership | Maps repository paths to the maintainer |
+| .github/ | Issue forms, discussions, workflows | No application deployment pipeline is implied |
+| docs/ | Product, technical, data, design, security, testing, delivery, and operations guides | Indexed from docs/README.md |
 | docs/assets/ | Logo, banner, SVG diagrams, screenshot policy | Illustrations are not PBIX captures |
-| docs/templates/ | Reusable change and quality templates | Indexed in templates/README.md |
+| docs/templates/ | Reusable change and QA templates | Indexed from docs/templates/README.md |
 | scripts/ | Repository documentation validation | Not part of report runtime |
 
 ## Architectural boundaries
 
-No frontend application, backend service, API implementation, database migration, container definition, or server deployment configuration is visible in the repository. The PBIX contains report-specific model and visual information that is not represented by this Git directory tree.
+No frontend application, backend service, API implementation, database migration, container definition, or server deployment configuration is visible in the repository. The PBIX contains report-specific model and visual information that is not represented by this file tree.
 
-## Keeping this page accurate
-
-Update this tree from the actual Git inventory when files move. Do not list planned files as existing or describe internal PBIX objects as repository folders.
+## Maintenance
+Update this page from the actual Git tree when files move. Do not list planned files as existing or describe internal PBIX objects as repository folders.

@@ -191,6 +191,9 @@ The documentation is organized into focused guides. Start with the [complete doc
 | 🚀 Delivery | [DevOps](docs/devops.md) · [CI/CD](docs/ci-cd.md) · [GitHub Actions](docs/github-actions.md) · [Release management](docs/release-management.md) · [Rollback](docs/rollback.md) |
 | 🛠️ Maintenance | [Maintenance](docs/maintenance.md) · [Known issues](docs/known-issues.md) · [Technical debt](docs/technical-debt.md) · [Project status](docs/project-status.md) |
 
+| 🧰 Further guides | [Installation](docs/installation.md) · [Local development](docs/local-development.md) · [Debugging](docs/debugging.md) · [Coding standards](docs/code-standards.md) · [Scalability](docs/scalability.md) · [Security testing](docs/security-testing.md) · [WCAG review](docs/wcag-compliance.md) |
+| ✅ Checklist coverage | [Master checklist coverage matrix](docs/documentation-coverage-matrix.md) |
+
 ### 🧩 Reusable templates and visual assets
 - [Template catalogue](docs/templates/README.md)
 - [Logo, banner, diagrams, and screenshot policy](docs/assets/README.md)

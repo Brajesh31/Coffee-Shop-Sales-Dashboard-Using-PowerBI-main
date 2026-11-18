@@ -47,3 +47,14 @@ Do not mark a task complete based only on documentation being written. Attach a 
 - [ ] Inspect the actual workbook schema and complete the field dictionary with verified values.
 - [ ] Inspect the PBIX page inventory, model relationships, DAX measures, query steps, and interactions.
 - [ ] Capture genuine report screenshots and complete accessibility and performance reviews.
+
+## 📚 Additional documentation coverage
+
+- [x] Add installation, local development, build/run boundaries, debugging, and commands reference.
+- [x] Add code standards, modeling patterns, scalability, logging, and dependency security guides.
+- [x] Add design token, typography, color, animation, keyboard, screen-reader, contrast, and WCAG review guidance.
+- [x] Add authentication, authorization, encryption, and data-protection boundary documentation.
+- [x] Add hosting, infrastructure, production setup, monitoring, observability, and health-check applicability notes.
+- [x] Add deprecation, upgrade, and architecture decision documentation.
+- [x] Publish a coverage matrix mapped to the master repository checklist.
+- [ ] Complete the PBIX and XLSX evidence work listed in the coverage matrix.

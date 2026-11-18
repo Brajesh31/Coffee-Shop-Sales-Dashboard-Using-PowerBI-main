@@ -217,7 +217,7 @@ Contributions that improve reproducibility, data definitions, accessibility, or 
 
 **Built with ☕, 📊, and a focus on evidence-based retail analytics.**
 
-[GitHub profile](https://github.com/Brajesh31) · [Open an issue](../../issues)
+[GitHub profile](https://github.com/Brajesh31) · [Open an issue](https://github.com/Brajesh31/Coffee-Shop-Sales-Dashboard-Using-PowerBI-main/issues)
 
 </div>
 

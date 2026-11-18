@@ -222,3 +222,5 @@ Contributions that improve reproducibility, data definitions, accessibility, or 
 </div>
 
 Documentation expanded: 2026-11-18
+
+Last updated: 2026-11-18 00:14 UTC
